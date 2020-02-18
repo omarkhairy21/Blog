@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "8"
+dist: trusty
+services:
+  - mongodb
+  - redis
+env:
+  - NODE_ENV=ci PORT=3000
+      
