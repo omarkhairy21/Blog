@@ -1,6 +1,7 @@
 {
   "workbench.colorCustomizations": {
     "activityBar.background": "#ef7853",
+    "activityBar.activeBackground": "#ef7853",
     "activityBar.activeBorder": "#8af4a3",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
@@ -12,7 +13,15 @@
     "titleBar.inactiveForeground": "#e7e7e799",
     "statusBar.background": "#eb5424",
     "statusBarItem.hoverBackground": "#ef7853",
-    "statusBar.foreground": "#e7e7e7"
+    "statusBar.foreground": "#e7e7e7",
+    "statusBar.border": "#eb5424",
+    "titleBar.border": "#eb5424"
   },
-  "peacock.color": "#eb5424"
+  "peacock.color": "#eb5424",
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/6b383edf-8647-4709-afd5-13967939dacd/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/cacheing-blog",
+  "appService.deploySubpath": ""
 }
